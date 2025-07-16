@@ -9,7 +9,7 @@ from plugins import web_server
 import pyrogram.utils
 from aiohttp import web
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002076989748
 
 name = """
 Links Sharing Started
