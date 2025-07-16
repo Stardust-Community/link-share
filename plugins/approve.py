@@ -1,4 +1,4 @@
-# +++ Modified By Yato [telegram username: @i_killed_my_clan & @ProYato] +++ # aNDI BANDI SANDI JISNE BHI CREDIT HATAYA USKI BANDI RAndi 
+# By arka [telegram username: @name_huh]   
 import os
 import asyncio
 from config import *
@@ -9,11 +9,11 @@ from database.database import set_approval_off, is_approval_off
 from helper_func import *
 from pyrogram import Client as UserClient
 
-USER_SESSION = "your user session"  # <-- Add your userbot session string here
+USER_SESSION = "BQCak1gAa4ArrhofSrskJiuShYW5QbYd1h-NIS_9w5IoMM7kL5rtVf8KOnT2IVFfdvSsz1sHnXh8ZRPYo3m2SMCQiu3uMThakFf9hCEygPIqTp9s-n5hfFrhryZ1ExC7SH2lPdA3NK5tA0pyh4gLTWiXd4M-PQACCaotkTW3ibe0VSHCZ0699bhiXdAFY3Oa0A40-mA83QpZqNqCZLJuN8SQbwioWh36x9-AEXBZ_rElBquXBSlJHeZv-DcYZChmfRI-FufzWtx-jCZcMKg_HwMMdNuwNH4eMC0Hz5oaBPP9ucwAFe4B1U9hjfXRYsF1etNemQrFzcVCdusfeyfpxuI6XizzoQAAAAGmk-HvAA"  # <-- Add your userbot session string here
 user_client = None
 
 # Default settings
-APPROVAL_WAIT_TIME = 5  # seconds (yaha apna default auto approve time dalde)
+APPROVAL_WAIT_TIME = 10  # seconds 
 AUTO_APPROVE_ENABLED = True  # Toggle for enabling/disabling auto approval 
 
 async def get_user_client():
