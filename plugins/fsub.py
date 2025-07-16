@@ -6,7 +6,7 @@ CHANNEL_USERNAME = '@yourchannelusername'  # Replace with your channel
 def start(update: Update, context: CallbackContext):
     user_id = update.effective_user.id
     member = context.bot.get_chat_member(chat_id=CHANNEL_USERNAME, user_id=user_id)
-    if member.status in ['member', 'administrator', 'creator']:
+    if member.status in ['member', 'ADMIN', 'OWNER_ID']:
         update.message.reply_text("Welcome! You have access.")
         # Proceed with your main bot logic
     else:
