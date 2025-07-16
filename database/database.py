@@ -1,4 +1,4 @@
-# +++ Modified By Yato [telegram username: @name_huh]  
+# By arka [telegram username: @name_huh]  
 import motor.motor_asyncio
 import base64
 from config import DB_URI, DB_NAME
