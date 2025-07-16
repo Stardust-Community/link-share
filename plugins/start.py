@@ -457,3 +457,8 @@ def delete_after_delay(msg, delay):
         except:
             pass
     return inner()
+@Bot.on_callback_query(filters.regex("check_sub"))
+async def check_sub_callback(client: Bot, callback_query: CallbackQuery):
+    user_id = callback_query.from_user.id
+    fsub_channels = await get_fsub_channels()
+    # ... checks subscription and responds accordingly
