@@ -333,3 +333,7 @@ async def is_approval_off(channel_id: int) -> bool:
     except Exception as e:
         print(f"Error checking approval_off for channel {channel_id}: {e}")
         return False
+async def add_fsub_channel(channel_id: int) -> bool:
+    # Adds a channel to the FSub list
+async def remove_fsub_channel(channel_id: int) -> bool:
+    # Removes a channel from the FSub list
