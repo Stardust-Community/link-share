@@ -6,8 +6,8 @@
     "links",
     "sharing"
   ],
-  "repository": "https://github.com/Sahil0976/Links-Sharing",
-  "logo": "https://ibb.co/FgPVtzw",
+  "repository": "https://github.com",
+  "logo": "https://i.ibb.co/jvGxrgtD/x.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
